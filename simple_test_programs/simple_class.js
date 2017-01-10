@@ -13,4 +13,3 @@ var MyClass = (function () {
 var msg = "Hello World";
 var ob = new MyClass();
 ob.setText(msg);
-console.log(ob.getText());
