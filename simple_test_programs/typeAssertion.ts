@@ -27,7 +27,10 @@ class Test {
     }
 
 }
-
+/*
+ * Type assetions  
+ * 
+*/
 var ob =  new Test();
 ob.setValue('2');
 console.log(ob.getString());
