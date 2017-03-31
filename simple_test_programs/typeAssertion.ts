@@ -1,6 +1,6 @@
 class Test {
     value:any;
-    Test()
+    constructor()
     {
         this.value = null;
         console.log("Value : "+this.value);
@@ -37,3 +37,7 @@ ob.setValue('2');
 console.log(ob.getString());
 ob.setValue(1);
 console.log(ob.getNumber());
+
+
+
+
